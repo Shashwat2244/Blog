@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    list-style-type: none;
+}
+
+#blogs{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav{
+    background-color: rgb(54, 17, 71);
+    color: white;
+    width: 100%;
+    height: 85px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+#name{
+    width: 50%;
+    font-size: 30px;
+    padding: 5px;
+    margin: 20px;
+}
+nav ul li {
+    font-size: 25px;
+    margin:20px 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(177, 113, 23);
+    text-decoration: none;
+}
+
+#blogs h2{
+    padding: 35px;
+    font-size: 80px;
+    text-align: center;
+}
+.segments{
+    text-align: center;
+}
+#blogs h3{
+    padding: 30px;
+    font-size: 40px;
+}
+li h5{
+    font-size: 30px;
+    padding: 10px;
+}
+.segment li{
+    font-size: 25px;
+    padding: 2px 100px;
+}
+
+.inside a{
+color: aqua;
+}
+
+#news{
+    color: beige;
+}
+
+#news h2{
+    color: black;
+    font-size: 80px;
+    padding: 30px;
+    text-align: center;
+}
+
+.carousel-caption h5{
+font-size: 40px;
+}
+.carousel-caption p{
+font-size: 20px;
+}
+
+.two h5{
+    color: white;
+    background-color: black;
+}
+
+.two p{
+    background-color: black;
+    color: white;
+}
+
+.three h5{
+    color: black;
+    background-color: white;
+}
+.three p {
+    background-color: white;
+    color: black;
+}
+
+#events{
+    background-image: url('eventsbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#events h2{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+}
+
+.jumbotron .container h1{
+    color: black;
+}
+.jumbotron .container p{
+    color: black;
+    font-size: 30px;
+}
+
+.jumbotron .container{
+    margin-bottom: 0px;
+}
+
+
+#jobs h2{
+    color: black;
+    font-size: 80px;
+    text-align: center;
+}
+
+.bigfont{
+    font-size: 40px;
+}
+
+.mediumfont{
+    font-size: 25px;
+}
+
+.colorblack{
+    color: black;
+}
+
+.card-body a{
+    width: 150px;
+    height: 55px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
